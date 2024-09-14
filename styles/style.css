@@ -1,1 +1,55 @@
-/* место для вашего кода */
+.body {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    padding: 92px 24px 96px 24px;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin: 44px auto 39px 26.52px;
+}
+
+.menu-text {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.52px;
+    text-decoration: none;
+}
+
+.menu-text-underlined {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.3px;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+}
+
+.list-marker {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    border: 1px solid #000000;
+}
+
+.header-logo {
+    margin: 0 184px 2px 36px;
+    width: 148px;
+    align-items: center;
+}
+
+.contacts {
+    max-width: 222px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 25.48px 2px auto;
+}
