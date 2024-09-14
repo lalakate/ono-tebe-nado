@@ -53,3 +53,66 @@
     flex-direction: column;
     margin: 5px 25.48px 2px auto;
 }
+
+.jamborton {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url('/images/cover.jpg');
+    background-size: cover;
+    background-color: #000000 0.6;
+}
+
+.jamborton-title {
+    margin: 165px 50px 135px 50px;
+}
+
+.jamborton-title-text {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.far-letter {
+    padding-left: 0px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.jamborton-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-bottom: 51px;
+}
+
+.jamborton-subline {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    word-spacing: 32px;
+    margin: auto;
+}
+
+.jamborton-button {
+    margin: auto;
+    background-color: transparent;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 32px;
+    text-decoration: none;
+}
