@@ -23,6 +23,7 @@
     font-size: 18px;
     line-height: 26.52px;
     text-decoration: none;
+    font-style: normal;
 }
 
 .menu-text-underlined {
@@ -58,6 +59,7 @@
     color: white;
     background-image: url('/images/cover.jpg');
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
