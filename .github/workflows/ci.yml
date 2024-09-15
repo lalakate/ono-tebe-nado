@@ -13,5 +13,11 @@ jobs:
           uses: actions/checkout@v2
 
         - name: Build project
-          run: 
+          run: open index.html
             echo "building the project"
+
+        - name: Upload artifact
+          uses: actions/upload-artifact@v2
+          with:
+            name: my-artifact
+            path: /home/katsyrina/Рабочий стол/dev/ono-tebe-nado
