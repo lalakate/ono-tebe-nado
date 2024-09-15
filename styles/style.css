@@ -75,8 +75,12 @@
     letter-spacing: 30px;
 }
 
-.far-letter {
-    padding-left: 0px;
+.jamborton-title-text-far {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    text-transform: uppercase;
+    letter-spacing: 60px;
 }
 
 .center-text {
@@ -90,6 +94,7 @@
 .jamborton-footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
     padding-bottom: 51px;
     position: relative;
@@ -101,11 +106,13 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
-    word-spacing: 32px;
-    margin: auto;
+    word-spacing: 17.6px;
+    margin-left: 78px;
 }
 
 .jamborton-button {
+    width: 265px;
+    height: 51px;
     margin: auto;
     background-color: transparent;
     font-family: 'Raleway';
