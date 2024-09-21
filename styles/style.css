@@ -7,10 +7,10 @@
 
 .menu {
     display: flex;
-    gap: 13px;
+    gap: 30px;
     align-items: center;
-    margin: 44px 3px 39px 26.52px;
-    list-style-type: none;
+    margin: 44px 9px 39px 26.52px;
+    list-style-type: circle;
 }
 
 .menu-text {
@@ -18,9 +18,17 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 26.52px;
-    text-decoration: none;
+    line-height: 22px;
     font-style: normal;
+    letter-spacing: 0.45px;
+}
+
+.active-link {
+    text-decoration: none;
+}
+
+.non-marked {
+    list-style-type: none;
 }
 
 .menu-text-underlined {
@@ -293,6 +301,8 @@
     min-width: 149px;
     list-style-type: none;
     margin-left: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon {
